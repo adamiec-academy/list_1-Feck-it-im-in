@@ -6,4 +6,4 @@ def cross(n):
     for _ in range(n):
         print (n * " " + n * "*" + n * " ")
 
-print (cross(4)) 
+print (cross(n)) 
