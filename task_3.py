@@ -9,3 +9,5 @@ def envelope(n):
         print("*" + (n - 2 - i) * " " + "*" + (2 * i + 1) * " " + "*" + (n - 2 - i) * " " + "*")
     for i in range(1):
         print((2 * n + 1) * "*")
+
+envelope(n)
