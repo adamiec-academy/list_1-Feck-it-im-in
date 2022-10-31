@@ -3,7 +3,7 @@ def snowball(n, k):
     for i in range(n):
         print(k * " ", end="")
         for j in range(n):
-            if (i - promien) ** 2 + (j - promien) ** 2 <= promien ** 2:
+            if (i + 0.5 - promien) ** 2 + (j + 0.5 - promien) ** 2 <= promien ** 2:
                 print("#", end="")
             else:
                 print(" ", end="")
